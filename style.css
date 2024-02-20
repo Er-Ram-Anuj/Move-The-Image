@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+body img{
+  width: 100%;
+}
+.soluton img{
+  width: 100px;
+  height: 100px;
+}
+.soluton{
+  border: 3px solid green;
+  height: 85vh;
+  width: 80%;
+  position: relative;
+}
+    #movingImage {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
